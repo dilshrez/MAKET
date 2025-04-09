@@ -1,0 +1,268 @@
+@font-face {
+    font-family: 'futura';
+    src: url(futura-book/FuturaPTDemi.otf);
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    width: 100%;
+    height: fit-content;
+    font-family: futura;
+    margin: 0;
+    padding: 0;
+}
+
+.topboard {
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+.logotop {
+    width: 50px;
+    height: 50px;
+    background-image: url(itlogo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+}
+
+.icosignin {
+    width: auto;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E4585D;
+    border-radius: 5%;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 10px;
+    margin-left: 60px;
+}
+.ico1 {
+    width: 25px;
+    height: 25px;
+    background-image: url(usericc.svg);
+    filter: invert(100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+}
+
+.signin {
+    color: white;
+}
+
+.rightdiv {
+    width: auto;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+h3 {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    text-align: left;
+    line-height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.under1, .under2 {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    left: 0;
+}
+
+.groupunder {
+    width: auto;
+    height: auto;
+    background-color: #14142A;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 100px;
+}
+
+.underlogo {
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    object-fit: cover;
+}
+
+.underquiz {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    width: fit-content;
+    background-color: #E4585D;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5%;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.groupblocks {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+.kyrs {
+    height: 250px;
+    background-image: url(BG.png);
+    display: flex;
+    align-items: center;
+    border-radius: 5%;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 40px -20px rgba(0,0,0,0.3);
+}
+
+.kyrslogo {
+    width: 40%;
+    height: 45%;
+    object-fit: contain;
+    float: inline-end;
+}
+
+.star {
+    width: 10px;
+    height: 10px;
+    background-color: #FFB832;
+    border-radius: 30%;
+}
+
+.stargroup {
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 4px;
+}
+
+.fireico {
+    width: 14px;
+    height: 14px;
+    filter: invert(100%);
+}
+
+.tag {
+    width: fit-content;
+    height: fit-content;
+    background-color: #E4585D;
+    display: flex;
+    align-items: center;
+    border-radius: 5%;
+    gap: 10px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+p {
+    font-size: 14px;
+    color: white;
+}
+
+.tag1 {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.act {
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+.starcoin {
+    width: 24px;
+    height: 24px;
+    background-color: #FFB832;
+    background-image: url(starcoin.png); 
+    -webkit-mask-image: url('starcoin.png');
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+    mask-image: url('starcoin.png');
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+}
+
+.more {
+    color: #64617A;
+    margin: 0;
+}
+
+.container1 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2 {
+    margin: 0;
+}
+
+.container2 {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.block2 {
+    background-image: url(BG2.png);
+}
