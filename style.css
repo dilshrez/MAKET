@@ -266,3 +266,86 @@ h2 {
 .block2 {
     background-image: url(BG2.png);
 }
+
+h1 {
+    font-size: 100px;
+    line-height: auto;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.mainblock {
+    width: 100%;
+    height: fit-content;
+    background-image: url(bgthings.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    color: #14142A;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+}
+
+.textfirst {
+    color: #64617A;
+}
+
+.textsecond {
+    color: #E4585D;
+}
+
+.textmain {
+    display: flex;
+}
+
+.maintext {
+    width: 60%;
+}
+
+.mainpic {
+    width: 30%;
+    height: 200px;
+    object-fit: contain;
+    margin-right: 10%;
+    box-sizing: border-box;
+}
+
+.Sico {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.socialico {
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.groupcontent {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    gap: 10px;
+    padding-left: 11%;
+    padding-right: 11%;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.textcontent {
+    color: #14142A;
+}
+
+.textcontent.box {
+    background-color: #E4585D;
+    color: white;
+    border-radius: 5%;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
