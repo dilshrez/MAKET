@@ -86,7 +86,6 @@ h3 {
 
 p {
     text-align: left;
-    line-height: auto;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -299,6 +298,7 @@ h1 {
 
 .textmain {
     display: flex;
+    width: fit-content;
 }
 
 .maintext {
@@ -348,4 +348,134 @@ h1 {
     padding-left: 10px;
     padding-right: 10px;
     box-sizing: border-box;
+}
+
+.kyrsname {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (max-width:1140px) {
+    .kyrsname {
+        flex-direction: column;
+        align-items: start;
+    }
+}
+
+.kyrsnameblock {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.text {
+    text-align: center;
+    color: #14142A;
+}
+
+.textpar {
+    text-align: left;
+    color: #14142A;
+}
+
+.textcontainer {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.kyrsico {
+    width: auto;
+    background-color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    gap: 5px;
+    border-radius: 5%;
+    box-sizing: border-box;
+}
+
+.infoico {
+    width: 14px;
+    height: 14px;
+    object-fit: cover;
+}
+
+.blockico {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.but {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    background-color: #E4585D;
+    color:#f6f6f6;
+    border-radius: 5%;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+    gap: 10px;
+}
+
+.kyrsmainblock {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(bgthings1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+@media (min-width:1400px) {
+    .kyrsmainblock {
+        background-size: cover;
+    }
+}
+
+.kyrsmainleft {
+    width: 40%;
+    height: fit-content;
+}
+
+.kyrsmainright {
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.fita {
+    display: inline-block;
+    height: 38px;
+    width: fit-content;
+}
+
+.textcontainer1 {
+    justify-content: space-between;
+}
+
+.znak {
+    width: 30px;
+    height: 100px;
+    object-fit: contain;
 }
