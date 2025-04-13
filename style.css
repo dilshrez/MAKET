@@ -462,6 +462,7 @@ h1 {
     align-items: center;
     gap: 10px;
     margin-top: 50px;
+    padding: 20px 50px 50px 50px;
 }
 
 .fita {
@@ -478,4 +479,37 @@ h1 {
     width: 30px;
     height: 100px;
     object-fit: contain;
+}
+
+.videocontent {
+    width: 600px;
+    height: 350px;
+    background-image: url(videocontent.png);
+    border-radius: 1%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.playbut {
+    width: 50px;
+    height: 50px;
+    background-image: url(play.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 47.5%;
+    left: 47.5%;
+}
+
+.allcontent {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    margin-top: 50px;
 }
