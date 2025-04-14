@@ -252,6 +252,7 @@ p {
 
 h2 {
     margin: 0;
+    color: #14142A;
 }
 
 .container2 {
@@ -482,8 +483,10 @@ h1 {
 }
 
 .videocontent {
-    width: 600px;
+    width: 100%;
     height: 350px;
+    display: flex;
+    flex-direction: column;
     background-image: url(videocontent.png);
     border-radius: 1%;
     background-size: cover;
@@ -512,4 +515,92 @@ h1 {
     padding-right: 10%;
     box-sizing: border-box;
     margin-top: 50px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.pere {
+    width: fit-content;
+    height: fit-content;
+    color: #14142A;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.alight {
+    font-size: 16px;
+    color: #14142A;
+}
+
+.ani {
+    position: relative;
+    text-decoration: none;
+    color: #14142A;
+}
+
+.ani::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    width: 0;
+    background-color: #E4585D;
+    transition: width 0.15s ease;
+  }
+
+  .ani:hover::after {
+    width: 100%;
+}
+
+.paragraph {
+    color: #14142A;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.bigtext {
+    width: 100%;
+    margin-top: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.textul {
+    color: #14142A;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.teachava {
+    width: 140px;
+    height: 180px;
+    object-fit: cover;
+    margin-top: 10px;
+    border-radius: 5%;
+}
+
+.group {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    gap: 10px;
+}
+
+.teacher {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.allcontleft {
+    width: 60%;
+    height: fit-content;
 }
