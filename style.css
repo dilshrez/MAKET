@@ -104,6 +104,7 @@ p {
     height: auto;
     background-color: #14142A;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: start;
     color: white;
@@ -330,6 +331,7 @@ h1 {
     width: 100%;
     height: fit-content;
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     padding-left: 11%;
     padding-right: 11%;
@@ -510,7 +512,7 @@ h1 {
     width: 100%;
     height: fit-content;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     padding-left: 10%;
     padding-right: 10%;
     box-sizing: border-box;
@@ -580,16 +582,19 @@ ul {
 .teachava {
     width: 140px;
     height: 180px;
+    border-radius: 5%;
     object-fit: cover;
     margin-top: 10px;
-    border-radius: 5%;
 }
 
 .group {
     width: fit-content;
-    height: fit-content;
+    height: 200px;
+    overflow: hidden;
+    align-items:flex-start;
     display: flex;
     gap: 10px;
+    margin-top: 10px;
 }
 
 .teacher {
@@ -603,4 +608,124 @@ ul {
 .allcontleft {
     width: 60%;
     height: fit-content;
+}
+
+.allcontentright {
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.h3c {
+    color: #E4585D;
+}
+
+.us {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    background-color: #f6f6f6;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    background-position: center;
+    border-radius: 70%;
+}
+
+.ustext {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.dw {
+    color: #9f9f9f;
+    font-size: 14px;
+}
+
+.up {
+    color: #14142A;
+    font-size: 18px;
+}
+
+@media (max-width:1000px) {
+    h1 {
+        font-size: 60px;
+    }
+    .allcontent {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .allcontleft {
+        width: 100%;
+    }
+    .allcontentright {
+        margin-top: 40px;
+        width: 100%;
+    }
+    .underquiz {
+        order: -1;
+        width: 40%;
+    }
+    .underlogo {
+        width: 40%;
+        object-fit: contain;
+        margin-bottom: 40px;
+        order: -2;
+    }
+    .groupunder {
+        justify-content: center;
+        gap: 40px;
+    }
+    .mainblock {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .mainpic {
+        margin-right: 0;
+        margin-top: 40px;
+        width: fit-content;
+    }
+    .maintext {
+        width: 100%;
+    }
+    .groupblocks {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:800px) {
+    .kyrsmainblock {
+        flex-direction: column;
+    }
+    .kyrsmainleft {
+        width: 100%;
+    }
+    .kyrsmainright {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media (max-width:620px) {
+    .groupblocks {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:550px) {
+    .rightdiv {
+        gap: 15px;
+    }
+    .icosignin {
+        margin-left: 10px;
+    }
 }
